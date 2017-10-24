@@ -14,6 +14,8 @@
 		522AC97D1F9F1C4C004A1A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522AC97B1F9F1C4C004A1A52 /* LaunchScreen.storyboard */; };
 		522AC9851F9F2F4A004A1A52 /* LightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC9841F9F2F4A004A1A52 /* LightViewController.swift */; };
 		522AC9871F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC9861F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift */; };
+		528E064E1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E064D1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift */; };
+		528E06501F9FA03400DA4DC8 /* TwoButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E064F1F9FA03400DA4DC8 /* TwoButtonsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		522AC97E1F9F1C4C004A1A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522AC9841F9F2F4A004A1A52 /* LightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightViewController.swift; sourceTree = "<group>"; };
 		522AC9861F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceBuilderBasicsViewController.swift; sourceTree = "<group>"; };
+		528E064D1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonInputControlsViewController.swift; sourceTree = "<group>"; };
+		528E064F1F9FA03400DA4DC8 /* TwoButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoButtonsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				522AC9741F9F1C4C004A1A52 /* ViewController.swift */,
 				522AC9841F9F2F4A004A1A52 /* LightViewController.swift */,
 				522AC9861F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift */,
+				528E064D1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift */,
+				528E064F1F9FA03400DA4DC8 /* TwoButtonsViewController.swift */,
 				522AC9761F9F1C4C004A1A52 /* Main.storyboard */,
 				522AC9791F9F1C4C004A1A52 /* Assets.xcassets */,
 				522AC97B1F9F1C4C004A1A52 /* LaunchScreen.storyboard */,
@@ -142,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528E064E1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift in Sources */,
+				528E06501F9FA03400DA4DC8 /* TwoButtonsViewController.swift in Sources */,
 				522AC9871F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift in Sources */,
 				522AC9751F9F1C4C004A1A52 /* ViewController.swift in Sources */,
 				522AC9851F9F2F4A004A1A52 /* LightViewController.swift in Sources */,
