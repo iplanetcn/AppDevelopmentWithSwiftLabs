@@ -1,64 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AqI-dz-6NN">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AqI-dz-6NN">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--TabNavigation-->
+        <scene sceneID="tku-4g-H7L">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabNavigation" id="j5P-mo-jnn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQ9-LD-0cs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1709" y="438"/>
+        </scene>
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppDevelopmentWithSwiftLabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ks-Xd-RUs">
-                                <rect key="frame" x="142" y="161" width="101" height="29.999999999999943"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Hobby Tutorial"/>
-                                <connections>
-                                    <segue destination="fNO-Wa-ezI" kind="show" id="llp-cM-R2P"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNm-Q4-JTL">
-                                <rect key="frame" x="175" y="85" width="35" height="29.999999999999886"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Light"/>
-                                <connections>
-                                    <segue destination="pEf-Pd-9fc" kind="show" id="VAt-5u-7Y2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPA-YU-jrf">
-                                <rect key="frame" x="111.5" y="123" width="162" height="30.000000000000057"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Interface Builder Basics"/>
-                                <connections>
-                                    <segue destination="RDp-9u-Deu" kind="show" id="8Hh-C8-aRY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUy-rK-vog">
-                                <rect key="frame" x="111" y="198" width="163" height="29.999999999999943"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Common Input Controls"/>
-                                <connections>
-                                    <segue destination="Qzi-Vg-lQ5" kind="show" id="Xvx-Av-CzG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myB-hh-Ag9">
-                                <rect key="frame" x="149.5" y="235" width="86" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Two Buttons"/>
-                                <connections>
-                                    <segue destination="U1m-RY-dI9" kind="show" id="A36-Gv-Z6B"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jve-qD-gB5">
+                                <rect key="frame" x="107" y="88" width="200" height="210"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNm-Q4-JTL">
+                                        <rect key="frame" x="82.666666666666657" y="0.0" width="35" height="30"/>
+                                        <state key="normal" title="Light"/>
+                                        <connections>
+                                            <segue destination="pEf-Pd-9fc" kind="show" id="VAt-5u-7Y2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPA-YU-jrf">
+                                        <rect key="frame" x="19" y="30" width="162" height="30"/>
+                                        <state key="normal" title="Interface Builder Basics"/>
+                                        <connections>
+                                            <segue destination="RDp-9u-Deu" kind="show" id="8Hh-C8-aRY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ks-Xd-RUs">
+                                        <rect key="frame" x="49.666666666666657" y="60" width="101" height="30"/>
+                                        <state key="normal" title="Hobby Tutorial"/>
+                                        <connections>
+                                            <segue destination="fNO-Wa-ezI" kind="show" id="llp-cM-R2P"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUy-rK-vog">
+                                        <rect key="frame" x="18.666666666666671" y="90" width="163" height="30"/>
+                                        <state key="normal" title="Common Input Controls"/>
+                                        <connections>
+                                            <segue destination="Qzi-Vg-lQ5" kind="show" id="Xvx-Av-CzG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myB-hh-Ag9">
+                                        <rect key="frame" x="57" y="120" width="86" height="30"/>
+                                        <state key="normal" title="Two Buttons"/>
+                                        <connections>
+                                            <segue destination="U1m-RY-dI9" kind="show" id="A36-Gv-Z6B"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSt-zN-51j">
+                                        <rect key="frame" x="65" y="150" width="70" height="30"/>
+                                        <state key="normal" title="Calculator"/>
+                                        <connections>
+                                            <segue destination="ASq-oY-Zdk" kind="show" id="OSL-fi-hvQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeF-YJ-Fz0">
+                                        <rect key="frame" x="49" y="180" width="102" height="30"/>
+                                        <state key="normal" title="Tab Navigation"/>
+                                        <connections>
+                                            <segue destination="j5P-mo-jnn" kind="show" id="96t-IY-jK8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="h2M-TT-vUK"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jve-qD-gB5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ooj-Mc-2ac"/>
+                            <constraint firstItem="jve-qD-gB5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="j39-j9-oOj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="0wY-m1-AxX"/>
@@ -72,7 +102,7 @@
             <objects>
                 <viewController id="fNO-Wa-ezI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nrl-qf-Bkc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chess_piece_king" translatesAutoresizingMaskIntoConstraints="NO" id="0zG-uN-Lqr">
@@ -149,14 +179,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="21X-fK-qfe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-609" y="-254"/>
+            <point key="canvasLocation" x="198" y="-1126"/>
         </scene>
         <!--Common Input Controls-->
         <scene sceneID="aoe-As-I26">
             <objects>
                 <viewController id="Qzi-Vg-lQ5" customClass="CommonInputControlsViewController" customModule="AppDevelopmentWithSwiftLabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mWj-et-xrK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQY-cm-Sao">
@@ -219,14 +249,14 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="197.59999999999999" y="-186.65667166416793"/>
+            <point key="canvasLocation" x="198" y="-254"/>
         </scene>
         <!--Interface Builder Basics-->
         <scene sceneID="JHr-Lw-VD8">
             <objects>
                 <viewController id="RDp-9u-Deu" customClass="InterfaceBuilderBasicsViewController" customModule="AppDevelopmentWithSwiftLabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dD8-Kb-DeC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcn-Bp-SCf">
@@ -255,23 +285,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DbZ-c0-cSC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-610.39999999999998" y="533.88305847076469"/>
+            <point key="canvasLocation" x="198" y="1478"/>
         </scene>
         <!--Two Buttons-->
         <scene sceneID="c0N-6q-1v5">
             <objects>
                 <viewController id="U1m-RY-dI9" customClass="TwoButtonsViewController" customModule="AppDevelopmentWithSwiftLabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HdV-p4-e7m">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xn-HC-f3Q">
-                                <rect key="frame" x="16" y="626" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnd-Mx-qZG">
                                 <rect key="frame" x="259" y="318" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -306,6 +329,13 @@
                                     <action selector="setTextButtonTapped:" destination="U1m-RY-dI9" eventType="touchUpInside" id="exH-ex-gpx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xn-HC-f3Q">
+                                <rect key="frame" x="16" y="142" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Yeq-9i-tMh"/>
@@ -320,12 +350,28 @@
             </objects>
             <point key="canvasLocation" x="232.80000000000001" y="542.87856071964018"/>
         </scene>
+        <!--Calculator-->
+        <scene sceneID="V0n-e2-X95">
+            <objects>
+                <viewController id="ASq-oY-Zdk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OJF-v2-QBJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ahq-ol-cdQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Calculator" id="yME-aA-vBA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h5B-Ev-n31" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="227.536231884058" y="-2696.739130434783"/>
+        </scene>
         <!--Light-->
         <scene sceneID="2tk-DC-ibY">
             <objects>
                 <viewController id="pEf-Pd-9fc" customClass="LightViewController" customModule="AppDevelopmentWithSwiftLabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Shd-3B-VaT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWd-Ir-KTT">
@@ -347,7 +393,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Dy-5u-ak4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-610" y="-928"/>
+            <point key="canvasLocation" x="233" y="-1955"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qpv-tM-mdQ">
@@ -355,10 +401,13 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AqI-dz-6NN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oH9-Od-rpo">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dqw-ix-3Yv">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QVb-ku-p29"/>
                     </connections>

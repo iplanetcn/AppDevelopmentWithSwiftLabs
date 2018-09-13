@@ -16,6 +16,7 @@
 		522AC9871F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC9861F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift */; };
 		528E064E1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E064D1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift */; };
 		528E06501F9FA03400DA4DC8 /* TwoButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E064F1F9FA03400DA4DC8 /* TwoButtonsViewController.swift */; };
+		52FA4ED8214A316500841565 /* TabNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FA4ED7214A316500841565 /* TabNavigation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		522AC9861F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceBuilderBasicsViewController.swift; sourceTree = "<group>"; };
 		528E064D1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonInputControlsViewController.swift; sourceTree = "<group>"; };
 		528E064F1F9FA03400DA4DC8 /* TwoButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoButtonsViewController.swift; sourceTree = "<group>"; };
+		52FA4ED7214A316500841565 /* TabNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabNavigation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +71,10 @@
 				528E064D1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift */,
 				528E064F1F9FA03400DA4DC8 /* TwoButtonsViewController.swift */,
 				522AC9761F9F1C4C004A1A52 /* Main.storyboard */,
-				522AC9791F9F1C4C004A1A52 /* Assets.xcassets */,
+				52FA4ED7214A316500841565 /* TabNavigation.storyboard */,
 				522AC97B1F9F1C4C004A1A52 /* LaunchScreen.storyboard */,
 				522AC97E1F9F1C4C004A1A52 /* Info.plist */,
+				522AC9791F9F1C4C004A1A52 /* Assets.xcassets */,
 			);
 			path = AppDevelopmentWithSwiftLabs;
 			sourceTree = "<group>";
@@ -103,7 +106,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = John;
 				TargetAttributes = {
 					522AC96E1F9F1C4C004A1A52 = {
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FA4ED8214A316500841565 /* TabNavigation.storyboard in Resources */,
 				522AC97D1F9F1C4C004A1A52 /* LaunchScreen.storyboard in Resources */,
 				522AC97A1F9F1C4C004A1A52 /* Assets.xcassets in Resources */,
 				522AC9781F9F1C4C004A1A52 /* Main.storyboard in Resources */,
@@ -193,6 +197,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -200,6 +205,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -227,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,6 +256,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -257,6 +264,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -278,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
