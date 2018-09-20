@@ -16,6 +16,8 @@
 		522AC9871F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC9861F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift */; };
 		528E064E1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E064D1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift */; };
 		528E06501F9FA03400DA4DC8 /* TwoButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E064F1F9FA03400DA4DC8 /* TwoButtonsViewController.swift */; };
+		52D1A5042153412E006361E7 /* CardFlip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D1A5032153412E006361E7 /* CardFlip.storyboard */; };
+		52D1A50621534236006361E7 /* CardFlipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1A50521534236006361E7 /* CardFlipController.swift */; };
 		52FA4ED8214A316500841565 /* TabNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FA4ED7214A316500841565 /* TabNavigation.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		522AC9861F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceBuilderBasicsViewController.swift; sourceTree = "<group>"; };
 		528E064D1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonInputControlsViewController.swift; sourceTree = "<group>"; };
 		528E064F1F9FA03400DA4DC8 /* TwoButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoButtonsViewController.swift; sourceTree = "<group>"; };
+		52D1A5032153412E006361E7 /* CardFlip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardFlip.storyboard; sourceTree = "<group>"; };
+		52D1A50521534236006361E7 /* CardFlipController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipController.swift; sourceTree = "<group>"; };
 		52FA4ED7214A316500841565 /* TabNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabNavigation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,9 +74,11 @@
 				522AC9861F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift */,
 				528E064D1F9F8D6B00DA4DC8 /* CommonInputControlsViewController.swift */,
 				528E064F1F9FA03400DA4DC8 /* TwoButtonsViewController.swift */,
+				52D1A50521534236006361E7 /* CardFlipController.swift */,
 				522AC9761F9F1C4C004A1A52 /* Main.storyboard */,
 				52FA4ED7214A316500841565 /* TabNavigation.storyboard */,
 				522AC97B1F9F1C4C004A1A52 /* LaunchScreen.storyboard */,
+				52D1A5032153412E006361E7 /* CardFlip.storyboard */,
 				522AC97E1F9F1C4C004A1A52 /* Info.plist */,
 				522AC9791F9F1C4C004A1A52 /* Assets.xcassets */,
 			);
@@ -111,6 +117,7 @@
 				TargetAttributes = {
 					522AC96E1F9F1C4C004A1A52 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +147,7 @@
 			files = (
 				52FA4ED8214A316500841565 /* TabNavigation.storyboard in Resources */,
 				522AC97D1F9F1C4C004A1A52 /* LaunchScreen.storyboard in Resources */,
+				52D1A5042153412E006361E7 /* CardFlip.storyboard in Resources */,
 				522AC97A1F9F1C4C004A1A52 /* Assets.xcassets in Resources */,
 				522AC9781F9F1C4C004A1A52 /* Main.storyboard in Resources */,
 			);
@@ -157,6 +165,7 @@
 				522AC9871F9F332D004A1A52 /* InterfaceBuilderBasicsViewController.swift in Sources */,
 				522AC9751F9F1C4C004A1A52 /* ViewController.swift in Sources */,
 				522AC9851F9F2F4A004A1A52 /* LightViewController.swift in Sources */,
+				52D1A50621534236006361E7 /* CardFlipController.swift in Sources */,
 				522AC9731F9F1C4C004A1A52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +313,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phenix.AppDevelopmentWithSwiftLabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -319,7 +328,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phenix.AppDevelopmentWithSwiftLabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

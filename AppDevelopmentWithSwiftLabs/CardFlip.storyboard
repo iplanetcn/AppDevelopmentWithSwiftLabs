@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="euN-eK-t3q">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Card Flip Controller-->
+        <scene sceneID="ieU-HN-896">
+            <objects>
+                <viewController id="euN-eK-t3q" customClass="CardFlipController" customModule="AppDevelopmentWithSwiftLabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YVE-2v-lA1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GyT-5V-PRj">
+                                <rect key="frame" x="66" y="163" width="243" height="340"/>
+                                <state key="normal" image="card_back"/>
+                                <connections>
+                                    <action selector="btnCardTapped:" destination="euN-eK-t3q" eventType="touchUpInside" id="m5F-cZ-5xN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GyT-5V-PRj" firstAttribute="height" secondItem="YVE-2v-lA1" secondAttribute="height" id="eRE-RW-dgM"/>
+                            <constraint firstItem="GyT-5V-PRj" firstAttribute="centerX" secondItem="rZo-wH-zHE" secondAttribute="centerX" id="gAO-tT-P8e"/>
+                            <constraint firstItem="GyT-5V-PRj" firstAttribute="width" secondItem="YVE-2v-lA1" secondAttribute="width" id="mCx-Yh-6Y5"/>
+                            <constraint firstItem="GyT-5V-PRj" firstAttribute="centerY" secondItem="rZo-wH-zHE" secondAttribute="centerY" id="xxx-Ws-GTW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rZo-wH-zHE"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnCard" destination="GyT-5V-PRj" id="HBZ-Y7-QYx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uah-Yz-uiQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58.399999999999999" y="-22.03898050974513"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="card_back" width="243" height="340"/>
+    </resources>
+</document>
